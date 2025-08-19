@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B56377F-9450-492A-80B2-10109624FBEF}"
 EndProject
@@ -30,6 +30,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\AuthService\Application\Application.csproj", "{41DE6727-EBCB-4246-894D-97B69A262F0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServiceAPI", "src\AuthService\AuthServiceAPI\AuthServiceAPI.csproj", "{7873EF82-399E-461F-8E71-046145481686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Getaway", "Getaway", "{38CB2538-B571-4533-97EF-2E09EE36B158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGetaway", "src\ApiGetaway\ApiGetaway\ApiGetaway.csproj", "{0CBE8F93-2DDF-4D09-A162-627FFFF14943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +77,10 @@ Global
 		{7873EF82-399E-461F-8E71-046145481686}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7873EF82-399E-461F-8E71-046145481686}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7873EF82-399E-461F-8E71-046145481686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBE8F93-2DDF-4D09-A162-627FFFF14943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBE8F93-2DDF-4D09-A162-627FFFF14943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBE8F93-2DDF-4D09-A162-627FFFF14943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBE8F93-2DDF-4D09-A162-627FFFF14943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +99,7 @@ Global
 		{2862486A-542E-48BA-9433-310526480289} = {E2D826B8-6FD1-4D9A-B4F7-3D228162B745}
 		{41DE6727-EBCB-4246-894D-97B69A262F0F} = {E2D826B8-6FD1-4D9A-B4F7-3D228162B745}
 		{7873EF82-399E-461F-8E71-046145481686} = {E2D826B8-6FD1-4D9A-B4F7-3D228162B745}
+		{38CB2538-B571-4533-97EF-2E09EE36B158} = {5B56377F-9450-492A-80B2-10109624FBEF}
+		{0CBE8F93-2DDF-4D09-A162-627FFFF14943} = {38CB2538-B571-4533-97EF-2E09EE36B158}
 	EndGlobalSection
 EndGlobal
