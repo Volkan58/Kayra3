@@ -1,6 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using SharedLayer.Model;
 
-namespace SharedLayer.Model
+namespace Infrastructure.Identity
 {
     public class RefreshToken : BaseEntity
     {
@@ -8,6 +9,6 @@ namespace SharedLayer.Model
         [Required]
         public string Token { get; set; } = string.Empty;
         public DateTime ExpiresAt { get; set; }
-        public User User { get; set; } = null!;
+        public ApplicationUser User { get; set; } = null!;
     }
 }
